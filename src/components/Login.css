@@ -1,0 +1,13 @@
+.pulse-icon-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.pulse-icon {
+  color: #800000; /* Change color of the pulse icon */
+}
+
+.login-container h2 {
+  color: #800000; /* Change color of the "HeartFit Login" text */
+}

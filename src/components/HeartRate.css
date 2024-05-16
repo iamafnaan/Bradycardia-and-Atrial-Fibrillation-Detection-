@@ -1,0 +1,22 @@
+.positioned-container {
+  position: absolute;
+  left: 0;
+  top: 5rem; /* adjust as needed */
+  width: 100%;
+  
+}
+
+
+
+.graph-container {
+
+  margin-left: 20px;
+  margin-top: -380px;
+  flex: 2;
+  position: "absolute";
+  right: "5px";
+}
+
+.card-container {
+  flex: 1; /* Make the card take up more space than the GraphHeart component */
+}

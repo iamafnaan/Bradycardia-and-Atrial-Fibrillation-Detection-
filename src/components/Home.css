@@ -1,0 +1,48 @@
+.card {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(145deg, #00ffdb, #0085ff);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 0 10px;
+  padding: 10px;
+  color: #333; /* Choose a legible font color */
+  font-family: Arial, sans-serif;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.bottom-logout {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* styles.css */
+.light-theme {
+  --theme-color: #ffc0cb;
+  --text-color: black;
+}
+
+.dark-theme {
+  --theme-color: black;
+  --text-color: white;
+}
+
