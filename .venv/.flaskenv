@@ -1,0 +1,2 @@
+FLASK_APP = Fuzzy.py
+FLASK_DEBUG = 1
